@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'oatly';
+  src: url('../fonts/ToniNoveauPro-Regular.917643b2.otf') format('opentype');
+}
+
+@font-face {
+  font-family:'tekst';
+  src: url('../fonts/FFMagdaCleanMonoStdRegular.51a2e183\ \(1\).woff');
+}
+
+@font-face {
+  font-family:'title';
+  src: url('../fonts/GirdoBlackPro-Regular.a40bd0fc.woff');
+}
+
+
+
+
+
+
+/* CUSTOM PROPERTIES */
+
+
+/* ALGEMENE STYLING */
+
+
+.body {
+  max-width: 100%;
+  height: fit-content;
+  overflow-x:hidden ;
+}
+
+footer{
+  background-color: black;
+  color: rgb(123, 118, 118);
+  max-height: fit-content;
+}
+footer p{
+  text-align: center;
+}
+footer li{
+  padding-bottom: 1em;
+  padding-left: 2em;
+
+}
+
+footer li:hover{
+  background-color: black;
+  color: white;
+}
+footer ul{
+  max-height: 200px;
+}
+footer ul li {
+ display: flex;
+flex-grow: 9;
+ /* flex-wrap: wrap;
+ list-style: none;
+ margin: 0;
+ padding: 0; */
+}
+  
+ 
+.digdeeper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/* Dus je kan de eerste button in je section(main) pakken doormiddel van main (spatie) button */
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+/* css scroll snap (is voor carrousel centreren */
+
+
+
+  /* HEADER */
+
+
+   /* FOOTER */
+
+   /* MAIN */
+
+   /* ALLE SECTIES */
