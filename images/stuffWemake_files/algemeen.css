@@ -16,7 +16,7 @@
 /* CUSTOM PROPERTIES */
 button {
   outline: none;
-  background-color: var(--tekst);
+  background-color: black;
   border: none;
   width: 3em;
 
@@ -30,7 +30,7 @@ button span {
   position: absolute;
   width: 1em;
   height: 0.15em;
-  background-color:var(--hover);
+  background-color: white;
   transition: .3s;
 }
 
@@ -64,8 +64,8 @@ header button[aria-expanded="true"] span:nth-of-type(3) {
 aside:first-of-type {
   width: 20em;
   max-height: 80em;
-  background-color: var(--tekst);
-  color: var(--color);
+  background-color: black;
+  color: white;
   position: absolute;
   transition: .3s ease;
   transform: translateX(-25em);
@@ -90,16 +90,16 @@ aside ul {
 
 aside ul li a:nth-last-of-type(1) {
   font-family: 'oatly';
-  color: var(--color);
+  color: white;
   display: block;
   padding: 1em;
   text-decoration: none;
-  border-bottom: dashed 0.15em var(--border);
+  border-bottom: dashed 0.15em black;
 }
 
 aside ul li a:nth-last-of-type(2) {
   font-family: 'oatly';
-  color: var(--color);
+  color: white;
   display: block;
   padding: 1em;
   text-decoration: none;
@@ -112,13 +112,6 @@ aside ul li a:nth-last-of-type(2) {
 /* ALGEMENE STYLING */
 :root {
   --tekst: black;
-  --border: black;
- --backgroundcolor: #98c5d3;
- --footer:rgb(123, 118, 118);
- --hover:white; 
- --color: white;
-
-
 }
 
 
@@ -141,10 +134,11 @@ marquee:first-of-type {
   width: 250;
   height: 200;
   direction: rtl;
-  color:  var(--tekst) ;
+  border: 1px solid #98c5d3;
+  color: black;
   font-family: 'tekst';
 
-  background-color: var(--backgroundcolor);
+  background-color: #98c5d3;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
@@ -152,8 +146,8 @@ marquee:first-of-type {
 }
 
 footer {
-  background-color: var(--tekst);
-  color: var(--footer);
+  background-color: black;
+  color: rgb(123, 118, 118);
   max-height: fit-content;
 }
 
@@ -168,8 +162,8 @@ footer li {
 }
 
 footer li:hover {
-  background-color: var(--tekst);
-  color:var(--hover);
+  background-color: black;
+  color: white;
 }
 
 footer ul {

@@ -1,7 +1,112 @@
+/* section:first-of-type ul li:first-of-type{div:nth-of-type(2){ */
 
+/* nav:first-of-type ul {
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav a:first-of-type {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:48px;
+} */
 
-.Haver section:first-of-type h1,
-.Haver section:first-of-type h2 {
+/* nav:first-of-type{
+    position:fixed;
+    Top:0;
+    left:0;
+    width:100vw;
+    height:100v;
+    inset:0;
+    translate: -100% 0%;
+
+    transition: .3s;
+}
+nav.open{
+    translate:0 0;
+} */
+
+/* .primary-nav {
+    position: relative;
+}
+
+.toggle-nav {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+    width: 4rem;
+    height: 3.5rem;
+    cursor: pointer;
+    background: #6699cc;
+
+    span span:before span:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        display: block;
+        text-indent: -9999px;
+        background-color: #fff;
+        height: .5rem;
+        width: 100%;
+        transition: background-color .3s ease-in-out, transform .5s ease-in-out, top .5s ease-in-out;
+    }
+
+    span {
+        top: 0.5rem;
+        width: 3rem;
+        margin-left: .5rem;
+    }
+
+    span:before {
+        top: 1rem;
+    }
+
+    span:after {
+        top: 2rem;
+    }
+
+    .open & {
+        span {
+            transform: rotate(45deg);
+            top: 1.5rem;
+
+            &:before {
+                background-color: transparent;
+            }
+
+            &:after {
+                top:0 }
+                &:after {transform: rotate(-90deg);
+            }}
+        }
+     */
+
+/* a>menu:first-of-type{
+    position: relative;
+    padding-left: 1.25em;
+   
+
+}
+a:first-of-type::before{
+content: "";
+position: absolute;
+left: 0;
+top: 0.25em;
+width: 1em;
+height: .15em;
+box-shadow:  0 0.25em 0 0 black, 
+0 0.5em 0 0 black;
+} */
+
+main section:first-of-type h1,
+main section:first-of-type h2 {
     font-family: 'title';
     font-size: 48px;
     font-weight: 100;
@@ -36,12 +141,12 @@ main section div p>span {
     height: 100%;
     font-family: 'title';
     font-size: 0.56em;
-    color: var(--hover);
+    color: white;
 }
 
 main section div p>span em span {
     font-size: 0.56em;
-    color: var(--hover);
+    color: white;
 }
 
 em:first-of-type {
@@ -133,7 +238,7 @@ p:first-of-type {
 }
 
 details {
-    border-bottom: dashed 0.15em var(--border);
+    border-bottom: dashed 0.15em black;
 }
 
 details summary {
@@ -170,7 +275,7 @@ tbody:first-of-type {
 tr:first-of-type {
     display: table-row;
     vertical-align: inherit;
-    border-color: var(--borders);
+    border-color: rgb(0, 0, 0);
 
 }
 
@@ -238,35 +343,6 @@ height: 10em;
  .index li{
     padding: 1em;
  }
- .tv{
-    background-image: url(/images/PinkBackground.png);
-    background-repeat: no-repeat;
-    background-size: 140%;
-    height: 26em;
-    margin: 0;
-    position: relative;
-}
-.tv img{
-    position: absolute;
-    width: 15em;
-    height: 15em;
-    padding: 0em 0em 2em 2em;
-}
-
-.Info{
-   text-align: center;
-  padding-top: 11em;
-}
-
-.Info h2{
-    font-family: 'title';
-    font-size: 2em;
-    padding-top: 1em;
-}
-.Info p{
-    font-family: 'tekst';
-    font-size: 0.25em;
-}
 /* .index li{
     display: flex;
     align-items: center;
@@ -281,7 +357,30 @@ height: 10em;
 
 
 
+section:nth-of-type(5) {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/PinkBackground.png);
+    background-size: 100px;
+}
 
+section:nth-of-type(5) img {
+    display: block;
+    margin: 0;
+    margin-bottom: 16px;
+    max-width: 22em;
+    height: auto;
+    padding: 2em 1em 2em 2em;
+}
+
+section:nth-of-type(5) h3 {
+    font-family: 'title';
+}
+
+section:nth-of-type(5) p {
+    margin: 0;
+}
 
 /* main section section section section h2{
     font-family: 'tekst';
