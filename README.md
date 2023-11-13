@@ -41,7 +41,8 @@ www.oatly.nl
   hier de naam van de pagina: Home
 
   <img src="readme-images/fireshothome.pdf" width="375px" alt="homepagina">
-
+  <img src="readme-images/Stuffwemake" width="375px" alt="pagina2">
+  
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  Haverdrank barista edition
   <img src="readme-images/FireShotHaverdrankBaristaEditie.png" width="375px" alt="omschrijving van de pagina">
@@ -141,11 +142,8 @@ Ook teksten over afbeeldingen in het algemeen, hoe dat werkt.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+We hebben in deze meeting veel antwoorden gekregen op onze vragen. 
+Vooral kleine details die ik over het hoofd zag.
 
 </details>
 
@@ -205,20 +203,21 @@ Ook teksten over afbeeldingen in het algemeen, hoe dat werkt.
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+ Ik ben verbaasd over wat ik allemaal zelf heb kunnen coderen zonder hulp. Ik begin het steeds beter te begrijpen
+ 
+<img width="487" alt="Schermafbeelding 2023-11-13 om 18 01 31" src="https://github.com/JadenStraal/FED/assets/144600122/963df800-ecf2-4d5b-b412-a6434c592392">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  ### Je uitkomst - karakteristiek screenshots:
+<img width="315" alt="Schermafbeelding 2023-11-13 om 18 03 06" src="https://github.com/JadenStraal/FED/assets/144600122/d0f9d3df-062e-4a0f-a233-0c71450eee26">
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+ Alles ging fout toen ik aan mn tweede pagina begon. Ik had niet gecontroleerd hoe mijn eerste pagina hierop zou reageren. Maar al mn CSS stond door elkaar heen. Ik vond het super lastig om dit weer goed te nesten. 
+<img width="301" alt="Schermafbeelding 2023-11-13 om 18 04 50" src="https://github.com/JadenStraal/FED/assets/144600122/9db80754-da01-4100-a6ba-7e30ae13debd">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
 </details>
 
 
@@ -233,9 +232,17 @@ Ook teksten over afbeeldingen in het algemeen, hoe dat werkt.
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+1. https://cssgridgarden.com/#nl
+2. https://css-tricks.com/snippets/css/complete-guide-grid/
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. https://www.oatly.com/nl-nl/stuff-we-make
+5. https://www.oatly.com/nl-nl/stuff-we-make/haverdrank/haverdrank-barista-edition-1l
+6. https://developer.mozilla.org/en-US/docs/Web/CSS/background-size
+7. https://codepen.io/KaoriYes/pen/xxMrbVy
+8. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width
+9. https://codepen.io/shooft/pen/ZEVRmdG
+10. https://www.w3schools.com/tags/tag_summary.asp#gsc.tab=0
+11. https://www.w3schools.com/css/css_background_repeat.asp
+12. https://www.w3schools.com/css/css_image_gallery.asp
 
 </details>
